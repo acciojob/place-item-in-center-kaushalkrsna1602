@@ -1,2 +1,22 @@
+/* Holder */
+.holder {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
 
-/* Your CSS Code here. */
+/* Item-1 */
+.item-1 {
+    width: 100px; /* Set width to 100px */
+    height: 100px; /* Set height to 100px */
+    background-color: red; /* Set background color to red */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Optional: makes the text more readable */
+    font-weight: bold; /* Optional: makes the text bold */
+    font-size: 12px; /* Optional: adjusts the text size */
+}
